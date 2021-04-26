@@ -1,0 +1,141 @@
+/* Main Navigation */
+.logo {
+    font-size: 50px;
+}
+
+.search-input {
+    padding: 0;
+    height: 20px;
+    width: 247px;
+    margin: 0 2px 0 7px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 10px;
+    background-color: #cbeff6;
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    float: right;
+}
+
+.search-button-left {
+    background: url("../images/search_btn_left.png") no-repeat left top;
+}
+
+.search-button-right {
+    background: url("../images/search_btn_right.png") no-repeat right top;
+}
+
+.search-btn {
+    margin: 0 7px 0 7px;
+    font-size: 9px;
+    height: 20px;
+    width: 39px;
+    color: #ffffff;
+    background-color: #274F56;
+    font-family: 'Istok Web', sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* Sub Navigation */
+.sub-navigation-list {
+    list-style: none;
+    /*font-size: 11px;*/
+    margin: 0;
+    padding: 0;
+}
+
+.sub-navigation-list a {
+    color: #3c3c3c;
+    font-family: 'muli', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    /*padding: 0 14px;*/
+}
+
+/*.sub-navigation-list a:hover {*/
+/*    color: #FFFFFF;*/
+/*    background-color: #7dd9e8;*/
+/*    padding: 15px 14px 12px 14px;*/
+/*}*/
+
+.sub-navigation-list li {
+    /*display: inline;*/
+    width: 100%;
+    /*height: 20px;*/
+    background-color: purple;
+    padding: 10px 0 10px 0;
+    display: block;
+}
+
+.sub-navigation-list li:hover {
+    color: #FFFFFF;
+    background-color: #7dd9e8;
+    cursor: pointer;
+}
+
+/*MIDDLE SECTION*/
+/*LEFT ONE*/
+.left-header-text {
+    color: #FFFFFF;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.left-section-items span {
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+.download-icon {
+    float: right;
+}
+
+/*RIGHT ONE*/
+
+
+
+/* Footer */
+.footer-circle {
+    display: none;
+}
+
+.footer-navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-navigation li {
+    /*display: inline;*/
+    display: block;
+}
+
+.footer-navigation a {
+    color: #d4d4d4;
+    font-size: 16px;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: bold;
+}
+
+.footer-right-copyright span {
+    color: #d4d4d4;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.footer-navigation span {
+    height: 5px;
+    width: 5px;
+    color: #d4d4d4;
+}
+
+.footer-circle {
+    margin-right: 5px;
+    margin-left: 8px;
+}

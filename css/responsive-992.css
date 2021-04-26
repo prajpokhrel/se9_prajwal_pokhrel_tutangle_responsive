@@ -1,0 +1,141 @@
+@media screen and (min-width: 938px) {
+    .navigation-contents {
+        width: 938px;
+    }
+
+    .sub-navigation-container {
+        width: 938px
+    }
+
+    .footer-container {
+        width: 938px;
+    }
+
+    .left-nav-container {
+        width: 74%;
+        float: left;
+    }
+
+    .left-nav-logo {
+        width: 40%;
+        float: left;
+    }
+
+    .left-nav-search {
+        width: 60%;
+        float: left;
+    }
+
+    .right-nav-container {
+        width: 26%;
+        padding: 0;
+        float: left;
+    }
+
+    .right-nav-user-detail {
+        text-align: right;
+        padding: 0;
+        width: 100%;
+        height: 30px;
+        float: left;
+    }
+
+    .right-nav-navigation {
+        padding: 0;
+        width: 100%;
+        height: 30px;
+        float: left;
+    }
+
+    /* SUB NAVIGATION   */
+    .sub-navigation-wrapper {
+        width: 100%;
+        /*height: 200px;*/
+        /*background-color: #F5F5F5;*/
+    }
+
+    .sub-navigation-container {
+        width: 938px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .sub-left-contents {
+        /*height: 40px;*/
+        width: 60%;
+        height: 75px;
+        background-color: blue;
+        text-align: left;
+        /*width: 554px;*/
+        padding-top: 15px;
+        float: left;
+    }
+
+    .sub-right-contents {
+        height: 100px;
+        width: 40%;
+        background-color: purple;
+        /*height: 40px;*/
+        /*width: 384px;*/
+        /*padding-top: 10px;*/
+        float: left;
+    }
+
+    /*.sub-left-content {*/
+    /*    float: left;*/
+    /*    margin-left: 28px;*/
+    /*}*/
+
+    /*.sub-navigation-list {*/
+    /*    list-style: none;*/
+    /*    font-size: 11px;*/
+    /*    margin: 0;*/
+    /*    padding: 0;*/
+    /*}*/
+
+    /*.sub-navigation-list a {*/
+    /*    color: #3c3c3c;*/
+    /*    font-family: 'muli', sans-serif;*/
+    /*    font-size: 13px;*/
+    /*    font-weight: bold;*/
+    /*    !*padding: 0 14px;*!*/
+    /*}*/
+
+    .sub-navigation-list a:hover {
+        color: #FFFFFF;
+        background-color: #7dd9e8;
+        /*padding: 15px 14px 12px 14px;*/
+    }
+
+    .sub-navigation-list li {
+        display: inline;
+        padding: 0;
+    }
+
+    /* MIDDLE CONTAINER */
+
+
+
+    /* FOOTER */
+    .footer-container {
+        width: 938px;
+    }
+
+    .footer-left {
+        width: 70%;
+        float: left;
+    }
+
+    .footer-right {
+        width: 30%;
+        float: left;
+    }
+
+    .footer-circle {
+        display: inline;
+    }
+
+    .footer-navigation li {
+        display: inline;
+    }
+}
