@@ -108,6 +108,7 @@
 /* Sub Navigation */
 .sub-navigation-wrapper {
     width: 100%;
+    /*height: 250px;*/
     height: 200px;
     background-color: #F5F5F5;
 }
@@ -115,8 +116,18 @@
 .sub-navigation-container {
     width: 94%;
     margin: 0 auto;
+    /*height: 250px;*/
     height: 200px;
     background-color: #F5F5F5;
+}
+
+.sub-left-button {
+    width: 100%;
+    text-align: center;
+}
+
+.sub-left-button i {
+    font-size: 50px;
 }
 
 .sub-left-contents {
@@ -146,7 +157,7 @@
 /* MIDDLE ONE */
 .middle-section {
     width: 100%;
-    height: 1150px;
+    height: 1100px;
     margin-top: 10px;
     /*margin-bottom: 50px;*/
     /*background-color: red;*/
@@ -298,7 +309,7 @@
 /* LEFT ONE */
 .contents-wrapper {
     width: 100%;
-    height: 2150px;
+    height: 2100px;
     /*margin-top: 50px;*/
     /*background-color: yellow;*/
 }

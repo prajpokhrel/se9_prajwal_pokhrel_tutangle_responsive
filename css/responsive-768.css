@@ -75,6 +75,8 @@
 
 
 
+
+
     /*.left-section-header {*/
     /*    width: 182px;*/
     /*}*/
@@ -116,5 +118,7 @@
         margin: 0 24px 0 26px;
     }
 
-
+    .sub-left-button {
+        display: none;
+    }
 }

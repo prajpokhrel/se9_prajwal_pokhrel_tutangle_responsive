@@ -15,8 +15,7 @@
 
 
         <!-- Font Awesome Kit  -->
-<!--        <script src="https://kit.fontawesome.com/f67aa84a86.js" crossorigin="anonymous"></script>-->
-        <script src="js/script.js"></script>
+        <script src="https://kit.fontawesome.com/f67aa84a86.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://use.typekit.net/nga8wby.css" >
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700;display=swap" rel="stylesheet">
@@ -24,7 +23,6 @@
         <title>TuTangle Responsive - Prajwal Pokhrel - SE9</title>
     </head>
     <body>
-
         <div class="main-wrapper">
             <div class="navigation-container">
                 <div class="navigation-contents">
@@ -65,8 +63,10 @@
             </div>
             <div class="sub-navigation-wrapper">
                 <div class="sub-navigation-container">
-<!--                    <i class="fas fa-caret-down show-hide-navigation"></i>-->
-                    <div class="sub-left-contents">
+<!--                    <div class="sub-left-button">-->
+<!--                        <i id="toggle-navigation" onclick="toggleNavigation()" class="fas fa-caret-down show-hide-navigation"></i>-->
+<!--                    </div>-->
+                    <div class="sub-left-contents" id="toggled-content">
                         <ul class="sub-navigation-list">
                             <li><a href="#">Create New Entry</a></li>
                             <li><a href="#">My Topic Boxes</a></li>
@@ -336,7 +336,7 @@
                                 <span>Creating a Topic Box</span>
                             </div>
                             <div class="right-section-items">
-                                <span>Creating a Topic Box</span>
+                                <span>View Topic Box Entries</span>
                             </div>
                             <div class="right-section-items">
                                 <span>Creating an Entry</span>
