@@ -11,7 +11,12 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/responsive-480.css">
         <link rel="stylesheet" type="text/css" href="css/responsive-992.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive-768.css">
 
+
+        <!-- Font Awesome Kit  -->
+<!--        <script src="https://kit.fontawesome.com/f67aa84a86.js" crossorigin="anonymous"></script>-->
+        <script src="js/script.js"></script>
 <!--        <link rel="stylesheet" href="https://use.typekit.net/nga8wby.css" >-->
 <!--        <link rel="preconnect" href="https://fonts.gstatic.com">-->
 <!--        <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700;display=swap" rel="stylesheet">-->
@@ -29,6 +34,7 @@
                         </div>
                         <div class="left-nav-search">
                             <div class="search-box-container">
+                                <img class="search-cross" src="images/cross-updated.png" alt="cross">
                                 <div class="search-box-left">
                                     <input class="search-input" type="text" value="Search by Term, Member, or Entry Title">
                                     <img class="search-icon" src="images/search_icon.png" alt="search_icon">
@@ -59,6 +65,7 @@
             </div>
             <div class="sub-navigation-wrapper">
                 <div class="sub-navigation-container">
+<!--                    <i class="fas fa-caret-down show-hide-navigation"></i>-->
                     <div class="sub-left-contents">
                         <ul class="sub-navigation-list">
                             <li><a href="#">Create New Entry</a></li>
@@ -67,7 +74,18 @@
                             <li><a href="#">Invite New Member</a></li>
                         </ul>
                     </div>
-<!--                    sub right contents is also there-->
+
+                    <div class="sub-right-contents">
+                        <div class="sub-left-content">
+                            <img src="images/box_icon.png" alt="box_icon">
+                            <span class="sub-left-text-1">Topic Boxes Invites - 2</span>
+                        </div>
+                        <div class="sub-left-content">
+                            <img src="images/profile_icon_grey.png" alt="profile_icon_grey">
+                            <span class="sub-left-text-2">Friend Requests - 0</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -75,51 +93,221 @@
             <!-- MAIN CONTAINER -->
             <div class="contents-wrapper">
                 <div class="contents-container">
-                    <div class="left-section">
-                        <div class="left-section-header">
+
+                    <div class="left-and-middle-wrapper">
+                        <!-- MIDDLE SECTION -->
+                        <div class="middle-section">
+                            <div class="middle-section-header">
+                                <span class="middle-header-text">
+                                    Entries
+                                </span>
+                            </div>
+
+                            <div class="middle-section-tab">
+                                <div class="section-tab-right">
+                                    <div class="section-tab-title">
+                                        <span>All Entries</span>
+                                    </div>
+                                    <div class="section-tab-buttons">
+                                        <div class="tab-button-wrapper-1">
+                                            <div class="tab-button-left-1">
+                                                <div class="tab-button-left-2">
+                                                    <button class="tab-btn">All Members</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-button-wrapper-2">
+                                            <div class="tab-button-right-1">
+                                                <div class="tab-button-right-2">
+                                                    <button class="tab-btn-2">Friends</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="section-tab-left">
+                                    <div class="section-tab-title">
+                                        <span>Subscribed</span>
+                                    </div>
+                                    <div class="section-tab-buttons">
+                                        <div class="tab-button-wrapper-1">
+                                            <div class="tab-button-right-1">
+                                                <div class="tab-button-right-2">
+                                                    <button class="tab-btn-2">New Entries</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-button-wrapper-2">
+                                            <div class="tab-button-right-1">
+                                                <div class="tab-button-right-2">
+                                                    <button class="tab-btn-2">New Comments</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="middle-section-contents">
+                                <div class="section-content-container">
+                                    <div class="middle-contents-right">
+                                        <img src="images/user_profile_1.png" alt="user-profile-1">
+                                    </div>
+                                    <div class="middle-contents-left">
+                                        <div class="middle-content-title">
+                                            <span>Day for Night by Francois Truffaut, a ground breaking film</span>
+                                        </div>
+                                        <div class="middle-content-body">
+                                            <span class="by">by <span class="username">Alan Coe</span></span> <span class="by">|</span>
+                                            <span class="by">February 10, 2012</span> <span class="by">|</span>
+                                            <span class="subscribed">Subscribed</span>
+                                        </div>
+                                        <div class="middle-content-origin">
+                                            <span class="by">From Topic Box: <span class="username">My Favorite Movies</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="section-content-container">
+                                    <div class="middle-contents-right">
+                                        <img src="images/user_profile_2.png" alt="user-profile-2">
+                                    </div>
+                                    <div class="middle-contents-left">
+                                        <div class="middle-content-sub-title">
+                                            <span>NEW ENTRY!</span>
+                                        </div>
+                                        <div class="middle-content-title">
+                                            <span>Blade Runner, The Director's Cut</span>
+                                        </div>
+                                        <div class="middle-content-body">
+                                            <span class="by">by <span class="username">Mary Pilot</span></span> <span class="by">|</span>
+                                            <span class="by">February 8, 2012</span>
+                                        </div>
+                                        <div class="middle-content-origin">
+                                            <span class="by">From Topic Box: <span class="username">Behind the Scene</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="section-content-container">
+                                    <div class="middle-contents-right">
+                                        <img src="images/user_profile_3.png" alt="user-profile-3">
+                                    </div>
+                                    <div class="middle-contents-left">
+                                        <div class="middle-content-sub-title">
+                                            <span>NEW COMMENT!</span>
+                                        </div>
+                                        <div class="middle-content-title">
+                                            <span>The Best French Restaurant in Chicago?</span>
+                                        </div>
+                                        <div class="middle-content-body">
+                                            <span class="by">by <span class="username">jim Roy</span></span> <span class="by">|</span>
+                                            <span class="by">February 7, 2012</span>
+                                        </div>
+                                        <div class="middle-content-origin">
+                                            <span class="by">From Topic Box: <span class="username">Chicago Restaurants Reviews</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="section-content-container">
+                                    <div class="middle-contents-right">
+                                        <img src="images/user_profile_4.png" alt="user-profile-4">
+                                    </div>
+                                    <div class="middle-contents-left">
+                                        <div class="middle-content-title">
+                                            <span>The Meaning of Night. Dark Book but incredibly well written.</span>
+                                        </div>
+                                        <div class="middle-content-body">
+                                            <span class="by">by <span class="username">John-Peter Moise</span></span> <span class="by">|</span>
+                                            <span class="by">February 7, 2012</span> <span class="by">|</span>
+                                            <span class="subscribed">Subscribed</span>
+                                        </div>
+                                        <div class="middle-content-origin">
+                                            <span class="by">From Topic Box: <span class="username">Books Read & Books to Read</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="section-content-container">
+                                    <div class="middle-contents-right">
+                                        <img src="images/user_profile_5.png" alt="user-profile-5">
+                                    </div>
+                                    <div class="middle-contents-left">
+                                        <div class="middle-content-sub-title-red">
+                                            <span>TOPIC BOX INVITE!</span>
+                                        </div>
+                                        <div class="middle-content-title">
+                                            <span>Pea Pesto</span>
+                                        </div>
+                                        <div class="middle-content-body">
+                                            <span class="by">by <span class="username">Marianne Gig</span></span> <span class="by">|</span>
+                                            <span class="by">February 6, 2012</span>
+                                        </div>
+                                        <div class="middle-content-origin">
+                                            <span class="by">From Topic Box: <span class="username">Favorite Recipes</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                        <!-- LEFT SECTION -->
+                        <div class="left-section">
+                            <div class="left-section-header">
+                                <span class="left-header-text">
+                                    Recent Searches
+                                </span>
+                            </div>
+                            <div class="left-section-contents">
+                                <div class="left-section-items">
+                                    <span>Nick Cave and the <br>Bad Seeds</span>
+                                    <img class="download-icon" src="images/download_icon.png" alt="download-icon">
+                                </div>
+                                <div class="left-section-items">
+                                    <span>African Animals</span>
+                                    <img class="download-icon" src="images/download_icon.png" alt="download-icon">
+                                </div>
+                            </div>
+                            <div class="left-section-header">
                         <span class="left-header-text">
                             Recent Searches
                         </span>
-                        </div>
-                        <div class="left-section-contents">
-                            <div class="left-section-items">
-                                <span>Nick Cave and the <br>Bad Seeds</span>
-                                <img class="download-icon" src="images/download_icon.png" alt="download-icon">
                             </div>
-                            <div class="left-section-items">
-                                <span>African Animals</span>
-                                <img class="download-icon" src="images/download_icon.png" alt="download-icon">
-                            </div>
-                        </div>
-                        <div class="left-section-header">
-                        <span class="left-header-text">
-                            Recent Searches
-                        </span>
-                        </div>
-                        <div class="left-section-contents">
-                            <div class="left-section-items">
-                                <span>Different versions of the <br>Tristan Und Isolde Prelude</span>
-                                <img class="download-icon" src="images/burger_icon.png" alt="burger-icon">
-                            </div>
-                            <div class="left-section-items active">
-                                <span>Music</span>
-                                <img class="download-icon" src="images/burger_icon.png" alt="burger-icon">
-                            </div>
-                            <div class="left-section-items">
-                                <span>Guitar</span>
-                                <img class="download-icon" src="images/burger_icon.png" alt="burger-icon">
-                            </div>
-                            <div class="left-section-items">
-                                <span>Bob Cohen</span>
-                                <img class="download-icon" src="images/burger_icon.png" alt="burger-icon">
-                            </div>
-                            <div class="left-section-items">
-                                <span>Mark Schnack</span>
-                                <img class="download-icon" src="images/burger_icon.png" alt="burger-icon">
-                            </div>
-                            <div class="left-section-items">
-                                <span>Jefferson Dickey</span>
-                                <img class="download-icon" src="images/burger_icon.png" alt="burger-icon">
+                            <div class="left-section-contents">
+                                <div class="left-section-items">
+                                    <span>Different versions of the <br>Tristan Und Isolde Prelude</span>
+                                    <img class="download-icon" src="images/burger_icon.png" alt="burger-icon">
+                                </div>
+                                <div class="left-section-items active">
+                                    <span>Music</span>
+                                    <img class="download-icon" src="images/burger_icon.png" alt="burger-icon">
+                                </div>
+                                <div class="left-section-items">
+                                    <span>Guitar</span>
+                                    <img class="download-icon" src="images/burger_icon.png" alt="burger-icon">
+                                </div>
+                                <div class="left-section-items">
+                                    <span>Bob Cohen</span>
+                                    <img class="download-icon" src="images/burger_icon.png" alt="burger-icon">
+                                </div>
+                                <div class="left-section-items">
+                                    <span>Mark Schnack</span>
+                                    <img class="download-icon" src="images/burger_icon.png" alt="burger-icon">
+                                </div>
+                                <div class="left-section-items">
+                                    <span>Jefferson Dickey</span>
+                                    <img class="download-icon" src="images/burger_icon.png" alt="burger-icon">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -161,11 +349,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
-
                 </div>
             </div>
 
