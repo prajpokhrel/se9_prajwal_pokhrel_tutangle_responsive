@@ -15,7 +15,7 @@
 
 
         <!-- Font Awesome Kit  -->
-        <script src="https://kit.fontawesome.com/f67aa84a86.js" crossorigin="anonymous"></script>
+        <script type="application/javascript" src="https://kit.fontawesome.com/f67aa84a86.js"></script>
         <link rel="stylesheet" href="https://use.typekit.net/nga8wby.css" >
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700;display=swap" rel="stylesheet">
@@ -61,12 +61,13 @@
                     </div>
                 </div>
             </div>
-            <div class="sub-navigation-wrapper">
-                <div class="sub-navigation-container">
-<!--                    <div class="sub-left-button">-->
-<!--                        <i id="toggle-navigation" onclick="toggleNavigation()" class="fas fa-caret-down show-hide-navigation"></i>-->
-<!--                    </div>-->
-                    <div class="sub-left-contents" id="toggled-content">
+
+            <div class="sub-navigation-wrapper" id="sub-navigation-wrapper-id">
+                <div class="sub-navigation-container" id="sub-navigation-container-id">
+                    <div class="sub-left-button">
+                        <i id="toggle-navigation" class="fas fa-caret-down"></i>
+                    </div>
+                    <div class="sub-left-contents" id="toggled-navigation">
                         <ul class="sub-navigation-list">
                             <li><a href="#">Create New Entry</a></li>
                             <li><a href="#">My Topic Boxes</a></li>
@@ -253,11 +254,7 @@
                                         </div>
                                     </div>
                                 </div>
-
-
                             </div>
-
-
                         </div>
 
 
@@ -373,5 +370,6 @@
             </div>
         </div>
 
+        <script type="text/javascript"  src="js/script.js" charset="utf-8"></script>
     </body>
 </html>
